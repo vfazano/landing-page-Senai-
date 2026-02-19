@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+     font-family: "Montserrat", sans-serif;
+}
+
+body{
+    height: 600px;
+}
+ 
+.linksTopo{
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    align-items: center;
+    border-bottom: 10px;
+    border-color:rgba(255, 7, 7, 0.769);
+    background-color:red;
+}
+
+.logo{
+    height: 20PX;
+    
+}
+
+.grande{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+ul{
+     list-style-type: none;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 700;
+}
+li{
+    margin:40px;
+}
+aside{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 25%;
+    background-color: aqua;
+    align-items: center;
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+    
+.descricao{
+    width: 350px;
+}
+.hero_imagem{
+        width: 350px;
+        height: 350px;
+        background-color: rgb(167, 167, 167);
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 110px;
+
+    }
+    .imgcalabrezo{
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+    }

@@ -1,0 +1,29 @@
+body{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+  
+
+} 
+.FotoSenai{
+    border-radius: 50px;
+    height: 150px;
+    width: 150px;
+    
+}
+
+h1{
+    position: absolute;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.titulos{
+    position: absolute;
+    top: 0;
+    left: 1000px;
+}
+    
+
+
