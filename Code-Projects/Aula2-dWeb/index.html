@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SENAI</title>
-    <link rel="stylesheet" href="/Aula2-dWeb/sytle.css">
+    <link rel="stylesheet" href="sytle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 
     <div class="topo">
         <div class="linksTopo">
-            <img class="logo" src="img/SENAI_Sao_Paulo_logo.png" alt="Logo">
+            <a href="#"><img class="logo" src="img/SENAI_Sao_Paulo_logo.png" alt="Logo"></a>
             <a href="#">Sobre Nós</a>
             <a href="#">Unidades</a>
            <a href="#" class="area-aluno">
@@ -29,39 +29,140 @@
     </div>
     
 </header>
+<section class="layout">
 
-     
-    <section class="grande">
+  <aside>
+    <ul>
+      <li>CURSOS</li>
+      <li>PROCESSO SELETIVO</li>
+      <li>O SENAI</li>
+      <li>PARA A SUA EMPRESA</li>
+      <li>UNIDADES</li>
+      <li>TRANSPARÊNCIA</li>
+      <li>FALE CONOSCO</li>
+    </ul>
+  </aside>
 
-        <aside>
-        <ul>
-            <li>CURSOS</li>
-            <li> PROCESSO SELETIVO</li>
-            <li>O SENAI </li>
-            <li>PARA A SUA EMPRESA</li>
-            <li>UNIDADES </li>
-            <li>TRANSPARENCIA</li>
-            <li>FALE CONOSCO</li>
-            
-        </ul>
-    </aside>
+  <main>
+    <div>
+      <ul class="icones">
+        <li class="icone-instagram"><a href="#"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYA
+          AACvElEQVR4nO2ZTWsUQRCGn0P04pLE+3oQs1nBi/h1EPVg9GziX1GTP6CoR2MOGvHjP4gRsxtJBH+Cq7nHk27EGIyXtaWgGoaB+ejpWbsX9oUX9jBVXe9OVXVNN4wxRh
+          RoA0tAF/gM7AOmJoov8dkBFnWt2nEO2Kgx6LL8CFysQ8AhYAX4G0CEUcraj4GJqiKOAu8DCjApbmhMzm8iRCqZAn4ADrsIWYkgaJPBZZfCDlkTpoAS29kyQmJMKZOitO
+          hctAMH+AZoKtcKnm3lCVkKLKSZiOVYwbN38oR0RkjIep6Q7RqC6QPPgRuaqkeU8nseeAHsZtiuqQDh24J1vuQJ2fMQ8Bu4C0xSjCngntpUXW8vb4GqTndSLfE68Ez/tf
+          3EQLgKXEu1+h2PdTNRVYTN7Vlgq4TNZqLrND3EZKJKOtk3cSUn97Nq6bLangcOQgqRmrBvwkVEUsyM+ngQSkhfi5aS6ZRFmbAF0xX+jFqESIu1hW08Oae+XoYQIvsE2p1
+          8hTxVXwshhEhdoC3WV4i0ZkE7hJCG2vyqQYj4EDRGXchP9TU56qnVC5la82qzWoOQJ+rrZgghMsWis5OvkKvq61XoDXHTQ4R8WtsN8UcIIUZHccFx4JvniPKwgn1tQg5
+          0FEcHwL6D7XfgktpeCD00mtQYP1PydFLS6YTayNfg14prZ8J4iJFR3GJOx46e7jPCT9qdbGHbN1FVhBnWp66kxn0t2iJMa038Gdan7raHY8tdnWJlADypE0BDfy9oi3X
+          tTsb18CH0cZBx4Ls8IYsRBGhK8laekFYEARrHWS8T3QiCND6njBangUEEwZoMDspeK6B3diZSPsIBE5Gm2Jbr1Rt68RjTpU+35Gab+WaWA1/FDTSdKl9PJ3EKeB1ARAc
+          4wxDQ0puidT3CqePgwVJ89XTHvl10tTbGGPwf/APThWw4L8JxcwAAAABJRU5ErkJggg==" alt="instagram-new--v1"></a></li>
 
+        <li class="icone-facebook"><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAA
+          ACd0lEQVR4nO2Zv2sUQRTHP+evwigSrCyiAWOpTXpBxcRcCkn8BVrZif+AjUJQSA5Jo4VpbMQiJtrE/CCojZ3YGEQx9nYaE6PRxOJWBp4Qwu7czuzb3Tm4L3zhmn1vPs
+          zsm7fvoKWWgtceoArUgGlgEfgO/BWb35+A58AI0CfPBKGKLGgSWAciR/8BJoAzEqsUXQDeeyw+yQvAYJEAR4BXigBb/QLoyhviHLCSI0QkXgUu5wFgzu9QAQDRFtc03x
+          0TaKwEiEj8QAtmpESISHwnK8SlACAi8ZUs1emn0iLMffFQSraJux/YB7QDncBRYLRBjB/AYR8QrRL7EjiQIt/VFLHmXSHOK0HMAjtS5kwDYjyQFqKidGN/kyOEMsi7tF
+          WsT2k3hh0gXEAioDdNwEklkGOWHN3Afcn1328dYo83gtjr2cXGVZjtFoiNjPF/A7ttIFXFTjZJj5Ry9NhAakpJXltyfCniHZxWSjKXEL8iX4saOaZsIJ8V74847VKKH8
+          lnc6KWmgjkqw1ko4lA1rVBBqT522zbdKQ9wXcd85q1JmrZA+Q0Onri0QIlarFEENNDueT9aAs2WxLINmBNs/wOlwRySPvzt98j4HXpnza7y3Ihdsf4mkfeXhuIacR+eQ
+          QtuvyuAW2NtvlpE4BMkEI9TQByKg2IOccfAgZZwEFnAwapUuA4KC+QeTzUKVPxUEBWgIN4yjSE9QBA6sBFMup2ACBDKOleiSCjKOuGwzHTAKlr7kTcX2/LBYAsucx4s3
+          SqMzmCTAEdFKh+y5jTB+SNzJ1L03HgsYxJXUFWZfJoYgQjs8iTwE0pDHHaCTwDbgEn5JmWWiJg/QOlYrQmouYwLQAAAABJRU5ErkJggg==" alt="facebook-new"></a></li>
 
-    <div class="hero">
-        <div class="descricao">
-            <h1>Bem vindo a biblioteca SENAI ADS!!</h1>
-            <p>A sua única plataforma de emprésarios de livros e estudos online, exclusiva para os alunos de ADS.</p>
+        <li class="icone-youtube"><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwY
+          AAACFElEQVR4nO2ZT0hUQRzHP5qBN0OxY+hJ6xJ0yIvgRQovXrrrkmB4CjoFeSgQ9iwdPQpCGwQdPKl0CILFP0gaIcIi4h6KWBMjdXWZeDAPtljfb7Y3szvCfOB7Wtjf
+          78PO7Jv3GwgEAoFAIGDMdeA2MApMAa+AOeAdsAysAbvAN6Ck8xtQVTmu+qwIfAXywBLwBngNTAMZ4AFwC0v0ADPAZ6D8T1ONyhHwAXgCtP+PxGPgV5OaV5dkG7hTj0S
+          0fCoeNK5qZA/oNpG4Bux70LBKSNZE5K4HjSohBRORRx40qgzSIYk886BJZZD7ksisB00qg4xLIu9TFhgGtnzY8J9SFohoAyaB7w5FFiSRTQsiMZ16qZ47EFmSRHYtisT
+          0AYuWRTYlkaIDkZhhfcywIVKURH46FIlP0U+Bw5R1zoCWpEJpT7mmxPvnwtVDsdwgkS4LIjeSCqT9yU2XVtolXAFakwodON7sX1J+v9KJ3jIT2XEg0u/g77cgiWxckQ
+          fiuiTy0YJIvA9KDgSUzook8jZlgRE9HVGOMy+JZBvQhI28lEQmPGhSGWRMEhnyoEllkEFJpNvjUZDSqZiOhJY9aFYlJOrPiHs15ra+5BQYoA4e6oG08ig/9BS0bqJ1+B
+          xYBU6a1PyJrv8CuIkFopNmrx73Z/T4P7oGyOn357x+EBarrg6O67hWyNW4VuiVTriBQCAQCAT4mz8yJp3ulSURNAAAAABJRU5ErkJggg==" alt="youtube-play"></a></li>
 
-        </div>
-        <div class="hero_imagem">
-            <img class="imgcalabrezo"   src="/Aula2-dWeb/img/Kalma kalabrezzo img.jpg" alt="img">
-        </div> 
+        <li class="icone-whatsapp"><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpw
+          YAAADKklEQVR4nO2aTWxNQRTHfxQtKUoUC6HxsSA2EgtrQYOKRoTSjZ34qNKljaQrXwuNRImkCwsaYuH5ShcICxGxsdHPSCkRaSMRi6piZJIjeXmZuW/m3tt5N03/yUl
+          e8u793/N/c+bMOec+mMLkxQKgHrgAPAR6gG/AmJj+3C3f6Wt2A1VkBOVAI9AF/AaUp+l7HgMHhSs4ZgMtwOcYztvsE3ASqAglYjswkKKAQusHaidSgF76tgkUUGg3ZOV
+          TxRLgTUARSuw1sDgtETWy3KpE1ic+JEK1pFFVYhsAlsYVUVGicFIRYRYrRbdnwHlVYJfjpFiVUdvmKkIvX28GHFYW63c9NFscCX8BJ4A5wHRgK/AnkJhml9VwLTsOG+7
+          PBRIyVGzjNzoSPbfcXxswxA5ECelyJNlvuX9awP31KKqfcC3FV0f8GM2BhIwD80wO1HuQRMVnlSSCEGJ2mRy46EGgSxcbVgF/Awk5b3LggQfBTouImcDTQCIUcN/kRJ8
+          Hwe2MlDU9JidGPAj0Hlhu4HgWWMiwSciYJ0mngWMtMBpQyE+TkDgO7DHwHC21kC8xiPSsaoWBq62UofUuJtlbYK7hhC+WzgcTzMOUmB74JUq/haanh2WW2u2H4XqdWFb
+          mnTvtMUM7ZxLSmnCZO6ScL8Qy4GZeia9Li82G63RPfhb47vHMc0lLlKhZlD4UTVgjJ/Fey/f517k+r85EMF+yQFIxT4CFxMcij7PMWDSm2RgNWsLHBTscn6H3dOLGysV
+          04Xhd9ogP7jnyN0SR6Pj+kKIYJeF6BdhYRIBuDa46cn4EZhX7RY6lLCTf9Fl1GtggQ4tKGYceAd578DS5LG3NBApJq+ItdxFyKAPOqoh9twVH3MqAw8pil1xFlHn2JSH
+          tlcsG/49NGXBYWV4r6JdNzjiTAadVgfVaWoVIvMxgOFX7ivAZ0IWwa3Ff7OzLgPNKzgnnFGtCh2NreVdeJ5yS4jAtAbrsaErjHxBDBvKvwB3gOLBeWth8zJCpeC5mhzc
+          uVWyDT2othhcygOiU2medwfEoVEpz1ioVbLfwjcqoaURqrZx0dnWGXn8KTBb8A31C/2cT3/wMAAAAAElFTkSuQmCC" alt="whatsapp--v1"></a></li>
+
+        <li class="icone-linkdin"><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwY
+          AAABW0lEQVR4nO2ZvUoDQRRGjyh2/oC2goW+ge+g4C5aikI6S1/BRgJ5EJ/BThP1QewUfxB0U6W5sjCNYXZnZi32jtwDXxPuzH6HzWazCRiG0ZUjYAJMAek5U2AMlKkS
+          IwXlpSHDlDMhylPEiEwUFJVA7mJEKgVFJZDvGBHJJEH6LigmMkfb4hfgBNhwOQPechTZV/RxHaRt8apnfi1HkdIzX+Qo8g4MgE2X+hp5zVFEFCVI3wXFRObosjhl5tHd
+          i7aAZWAF2AMugY8cROob50Hg2OvAjXaRnZiDA0vAg2aRFLaBWQ4iixEz15pFLoBnN/cEnLfMnmoVOU58/t7VKnLfsGf9GwEdvoz2JvLZsGf9uo8FrSJ/3VdMBBPxYiKY
+          CCYiJuJHTIT2xZoS5N+IVApKSiBfMSJjBUUlkNsYkVJBUQnkkEiGCspKQ65IpHD/nmq4Zir3doo+E4Zh8IsfFdRDh8Z3YCsAAAAASUVORK5CYII=" alt="linkedin"></a></li>
+
+        <li class="icone-twitter"><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwY
+          AAAC+klEQVR4nO2ZSWhUQRCGP424K24J7oiCOyoeBAUVPAQEEQlxuehBD4ogBD3pyZjcNOjJmwt6EEXwIgriRUGiYkxEQVDcUC+iMZt7kpaCP9CMSd6bl2ReT5wfipmp
+          6aqpf17339XvQQEFFNAXlADVQD3QBrgcWxvwGKhSLYmwFWhJoXjXg1kt5UlIdAZQvMuwzmzIlAR2JVyGNQPFcYhUB1Csi7BjcYg0BFCoizATgEi0BlCoizCb+pFweWK
+          R+K+IVETkOJdFQV+A+Yo7kGsiP4FlveQYC7yIkec3sEExG4E/aUytZ8BIYAhww/NvV541QHvE5rZLY5cATWmukeOKmQ58lu8rMFv+qhh7wTTgXVprxMk6vKmxxfPfAY
+          YCw4D73cRd0ZUcBTxIQML1NxGzD8AkxZ71/Aflm5exNz0ERovotYQk3EAQMbuq2DHeIjdBWC7/PvneeO14TR9IuIEiYrZT8as99XkqQTBcABbp/d4+knADScRUZ45yH
+          PX8JzPyl2Ypsy7XRMzuAkVa5LWezFrxhvEJZNalQcTssPLM9c41H4HJ8p/OFyJ/gFXKtcfzm0IhxXqeD0ScCrWCDZc9/275VgK/8oHIW09mp2hqOe0ntq8YjoROpBlY
+          qlwT9Vrq3cyolRgUSRyCJNIObFKedcB7YKo+n/LGmTwbZgGNIRLZrxwLvQJvqq8aATzxBME2TtQBB0WkRvEmsy8zvrOdvKtd/yHfK2Cc/JdCIXJdc97akXvdfP8NWKD
+          8hzz/GfkmJGjlI5EtiTo1izZ9LvYy7hEwXF3vbc+/zVtTHWkRMVmdGeMQ1WU2xjDDO4g1atEbTqRBxPaEFYrZEfNesf3j6xVT5vlveYLQkEsiJrObNX6tzh5x/4DXah5
+          7wmLge66I2G2brsbwU4J1dT6ihopcr5E0LRKDhkhLAEW6GP1cJOoDKNT1x2OFOPtB2lY5GB69NemMEwvlAT8MLYtLwifTHNiVKCMhinWzuS6lR3Kt+u3KbKZTAQUUwD
+          4C68XAvRNax0sAAAAAElFTkSuQmCC" alt="twitterx--v1"></a></li>
+      </ul>
 
     </div>
+    <div class="hero">
+      <div class="descricao">
+        <h1>Bem vindo a biblioteca SENAI ADS!!</h1>
+        <p>A sua única plataforma de empréstimos de livros e estudos online, exclusiva para os alunos de ADS.</p>
+      </div>
 
-    </section>
+      <div class="hero_imagem">
+        <img class="imgcalabrezo"
+             src="/Code-Projects/Aula2-dWeb/img/Kalma kalabrezzo img.jpg"
+             alt="img">
+      </div>
+    </div>
 
+    <div class="hero2">
+      <div class="descricao2">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. A explicabo doloribus tempora adipisci totam, perferendis vel minima illum
+           fugit hic et neque dignissimos omnis cumque laboriosam voluptas, sint beatae laudantium.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, porro rem ratione optio natus atque non libero fugit, ducimu
+          s, odio quidem sint voluptate hic temporibus quam reprehenderit dolorum sapiente quaerat!</p>
+
+      </div>
+
+      
+    </div>
     
-    
+  </main>
+
+</section>
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <h3>Sobre</h3>
+      <p>
+        Site desenvolvido por Vitor Fazano. Projeto para estudo e prática de desenvolvimento web.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h3>Links</h3>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Contato</h3>
+      <p>Email: vfazano09032007@gmail.com</p>
+      <p>Telefone: (15) 99748-7428</p>
+    </div>
+
+  </div>
+
+  <div class="footer-copy">
+    <p>© 2026 - Todos os direitos reservados</p>
+  </div>
+</footer>
+     
+
 </body>
 </html>
